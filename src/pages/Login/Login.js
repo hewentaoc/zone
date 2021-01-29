@@ -7,7 +7,7 @@ export default class Login extends Component {
         return (
             <div className='c-login'>
                 <LoginContent/>
-                <LoginShow />
+                {/* <LoginShow /> */}
             </div>
         )
     }

@@ -11,7 +11,9 @@ export default function LoginContent() {
                     <div>
                       <input className='input' type="password"/>
                     </div>
-                    <input type="submit" value='登录'/>
+                    <div>
+                        <button>登录</button>
+                    </div>
                 </div>
             </div>
             <div className="login-content-bg">

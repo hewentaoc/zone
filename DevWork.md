@@ -1,15 +1,20 @@
 ## 1. 使用sass
  - react默认就是支持Sass的
  - yarn add node-sass --save-dev
+ - node-sass版本号和react版本具有兼容性问题，通过下载node-sass 4.14.1解决问题
 
 
 
 
 ## 2. 导入的快捷方式
 
-rfc
+rfc(函数组件)
 
-rcc
+rcc(类组件)
+
+## 3. 开发中遇到的问题
+- 首页白屏
+
 
 
 
