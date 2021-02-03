@@ -1,9 +1,7 @@
 import React from 'react';
 import {BrowserRouter,Route, Switch,Redirect} from 'react-router-dom'
-import {isLogin} from '@/utils/isLogin.js';
 import Login from './pages/Login/Login.js'
 import Zone from './pages/Zone/Zone';
-import myCookie from '@/utils/cookie.js';
 import Error from './pages/Error/Error.js'
 import ProtectRoute from './components/ProtectRoute/ProtectRoute'
 function App() {
