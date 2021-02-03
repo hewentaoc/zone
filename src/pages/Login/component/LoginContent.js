@@ -20,7 +20,7 @@ export default function LoginContent({history}) {
         setShow(!isShow)
     })
     const handClick = useCallback(()=>{
-        console.log(username,password,username == user)
+        console.log(username == user)
         if(username == user && password == pwd ){
             oCookie.findCookie('user') ?? oCookie.createCookie('user',username,10000)
             history.push('/zone')

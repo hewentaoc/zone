@@ -15,6 +15,11 @@ class myCookie {
     }
 }
 
+/**
+ * 将cookie字符串转化为对象
+ * @param {*} cookie 
+ * @param {*} name 
+ */
 function transformCookie(cookie,name){
     let data = cookie.split('; ')
     let obj = data.reduce((store,item,index)=>{
