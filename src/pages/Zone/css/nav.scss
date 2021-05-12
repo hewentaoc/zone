@@ -1,0 +1,75 @@
+.c-nav {
+    width: 100%;
+    background: #000;
+    position: relative;
+    height: 72px;
+    > ul {
+      width: 70%;
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+      li {
+        height: 100%;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 18px;
+        a {
+            font-family: monospace;
+            color: rgba(255,255,255,0.7);
+        }
+        
+        a.active{
+            color: #fff;
+            font-size: 19px;
+            transition: all .6s;
+        }
+      }
+      li:hover a:not(.active){
+        color: #fff;
+        transform: scale(1.1);
+        transition: all .3s;
+        
+      } 
+    }
+    .c-banner-bg {
+        width: 100%;
+        height: 710px;
+        background-color: #000;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .c-banner-tip {
+            z-index: 1;
+            color: #fff;
+            font-size: 30px;
+
+            // font-family:simsun;
+            // color:transparent;
+            // -webkit-text-stroke : 1px #fff;
+
+            font-family: cursive;
+            font-family: system-ui;
+            font-family: serif;
+            font-family: sans-serif;
+            font-family: monospace;
+            font-family: cursive;
+            font-family: fantasy;
+            font-family: system-ui;
+            font-family: emoji;
+            font-family: math;
+            font-family: fangsong;
+            font-family: 'kaiti';
+
+            // position: absolute;
+            // left: 50%;
+            // top: 50%;
+            // transform: translate(-50%,-50%);
+        }
+    }
+}

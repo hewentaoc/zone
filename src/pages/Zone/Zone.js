@@ -1,9 +1,10 @@
 import React from 'react'
-
+import Nav from './component/Nav'
 export default function Zone() {
     return (
         <div>
-            <h1>我是主页</h1>
+            <Nav/>
+            <h1>主页</h1>
         </div>
     )
 }

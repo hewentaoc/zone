@@ -46,6 +46,35 @@ rcc(类组件)
 ## 9. 路由保护 √
 
 
+## 10. 怎么部署到服务器上
+
+- 腾讯云
+
+- nginx
+
+    > 下载nginx
+      - yum  install nginx 或者
+      - sudo apt-get install nginx
+
+    > 配置nginx.conf中的server文件
+      - 默认安装路径　/etc/nginx
+
+    > 修改nginx配置文件 
+    > ![](assets/server.png)
+    - 修改监听的端口－listen 81
+    - 修改默认打开的页面路径 - root /home/hwt/test
+
+ ## 11. 怎么把图片部署到服务器进行远程请求
+
+
+
+## 12. 
+
+
+ 
+
+
+
 
 
 
